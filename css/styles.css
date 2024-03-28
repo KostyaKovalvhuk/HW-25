@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+}
+
+.rainbow {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.div-box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.one  {
+    background-color: red;
+    top: 65px;
+    left: 65px;
+   
+}
+
+.two {
+    background-color: blue;
+    top: 135px;
+    left: 135px;
+    z-index: 1;
+}
+
+.three {
+    background-color: green;
+     top: 200px;
+    left: 200px;
+}
